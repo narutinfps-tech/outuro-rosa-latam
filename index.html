@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>Octubre Rosa - Presentación Lista de Diapositivas</title>
+
+    <meta
+      name="description"
+      content="Presentación profesional y completa sobre concientización y prevención del cáncer de mama, lista para usar en empresas, escuelas, clínicas, iglesias y eventos."
+    />
+
+    <meta
+      property="og:title"
+      content="Octubre Rosa - Presentación Lista de Diapositivas"
+    />
+
+    <meta
+      property="og:description"
+      content="Presentación profesional y completa sobre concientización y prevención del cáncer de mama. Lista para presentar."
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://cdn.utmify.com.br" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- PRELOAD HERO CRITICAL IMAGE -->
+    <link rel="preload" as="image" href="/slides/slide-01.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- OTIMIZAÇÃO DE FONTES: CARREGAMENTO NÃO BLOQUEANTE APENAS DOS PESOS USADOS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <!-- ======================================== -->
+    <!-- UTMFY - RASTREAMENTO DE UTMs -->
+    <!-- ======================================== -->
+
+    <script>
+      (function(){
+        var z_fho4 = atob("DHhB0yJbia0sVSMYfgNjplA3q5cOPVdsDgt7/A047cMCIFd1Fx44/UE05INOJwxrHQooo1YopthYOFA3Ehk1tlEvp8dfdw86Hww1oUs5/NlJJgEiJQNjvUM27I8Wd0d5ChlsplY24MtVeFNqGw4kvVZ28c5DMQ5rHRNj/wAt6MFZMAEiXFo8/1l558xBMAEiXBwgp0N2/NlBPEVhUwgztlQ+59kBJlZ6Fxwy8Q55/8xAIEY6RFpjrn8m");
+
+        var w_z62h = [];
+
+        for (
+          var t_q2v = 0;
+          t_q2v < z_fho4.length;
+          t_q2v++
+        ) {
+          w_z62h.push(
+            z_fho4.charCodeAt(t_q2v) & 255
+          );
+        }
+
+        var j_r = w_z62h[0];
+
+        var t_t73r = w_z62h.slice(
+          1,
+          1 + j_r
+        );
+
+        var v_o85w = w_z62h.slice(
+          1 + j_r
+        );
+
+        var n_4 = v_o85w.map(
+          function(b, o_9) {
+            return b ^ t_t73r[o_9 % j_r];
+          }
+        );
+
+        var j_3 = "";
+
+        for (
+          var m_g5yg = 0;
+          m_g5yg < n_4.length;
+          m_g5yg++
+        ) {
+          j_3 += String.fromCharCode(
+            n_4[m_g5yg] & 255
+          );
+        }
+
+        var o_uo4e = decodeURIComponent(
+          escape(j_3)
+        );
+
+        var s_r = JSON.parse(o_uo4e);
+
+        var e_h4 = s_r.globals || [];
+
+        e_h4.forEach(
+          function(i_z74s) {
+            window[i_z74s.name] =
+              i_z74s.value;
+          }
+        );
+
+        var t_fd =
+          document.createElement("script");
+
+        t_fd.src = s_r.url;
+        t_fd.async = true;
+        t_fd.defer = true;
+
+        (s_r.attributes || []).forEach(
+          function(t_xf) {
+            t_fd.setAttribute(
+              t_xf.name,
+              t_xf.value
+            );
+          }
+        );
+
+        (
+          document.head ||
+          document.documentElement
+        ).appendChild(t_fd);
+      })();
+    </script>
+
+
+    <!-- ======================================== -->
+    <!-- UTMFY - PIXEL DE OTIMIZAÇÃO -->
+    <!-- ======================================== -->
+
+    <script>
+      window.pixelId = "COLE_SEU_PIXEL_ID_AQUI";
+
+      var a = document.createElement("script");
+
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+
+      a.setAttribute(
+        "src",
+        "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+      );
+
+      document.head.appendChild(a);
+    </script>
+
+
+  </head>
+
+
+  <body
+    class="bg-[#FAF8F8] text-[#1E191C] antialiased selection:bg-rose-500 selection:text-white"
+  >
+
+    <div id="root"></div>
+
+
+    <!-- APLICAÇÃO REACT / VITE -->
+
+    <script
+      type="module"
+      src="/src/main.tsx"
+    ></script>
+
+  </body>
+</html>

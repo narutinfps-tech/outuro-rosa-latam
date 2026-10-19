@@ -1,0 +1,8 @@
+{
+  "name": "Remix Outubro Rosa - Apresentação Pronta de Slides",
+  "description": "Apresentação profissional e completa sobre conscientização e prevenção do câncer de mama, pronta para usar em empresas, escolas e eventos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
